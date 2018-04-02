@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>运维系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+    <script src="pageJs/jquery-1.11.1.min.js"></script>
+    <!--<script src="pageJs/jquery-3.2.1.js"></script>-->
+    <script src="table/Tween.js"></script>
+    <script src="pageJs/echarts.js"></script>
+    <script src="pageJs/health.js"></script>
+    <link rel="stylesheet" href="pageCss/bootstrap.css">
+    <!--<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">-->
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="table/bootstrap-table.css">
+    <script src="table/bootstrap-tablebf.js"></script>
+    <script src="table/bootstrap-table-locale-all.js"></script>
+    <link rel="stylesheet" href="pageCss/MyProjectCss.css">
+    <link rel="stylesheet" href="pageCss/my_media.css">
+
+
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-4 refreshChart" >
+            <!--<div id="healthyChart" class="ChartWidth"></div>-->
+            <!--<div id="healt_show_Chart"></div>-->
+
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4 ChartWidthHide">
+            <!--<div id="User_Chart" class="ChartWidth"></div>-->
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4">
+          <div id="AlarmStatistics" class="ChartWidth">告警统计</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-4"><div id="data_cpu" class="ChartWidth"></div></div>
+        <div class="col-md-4 col-sm-4 col-xs-4"><div id="Memory_Chart" class="ChartWidth"></div></div>
+        <div class="col-md-4 col-sm-4 col-xs-4  ChartWidth MytableLoading">
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+<script src="pageJs/Mypage.js"></script>
+</html>

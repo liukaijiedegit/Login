@@ -1,0 +1,179 @@
+[
+  {
+    "ServerName": "test0001111",
+    "SysServerMemoryRateList": [
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "32",
+        "UpdateTime": "2018-3-27 9:27:59"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "12",
+        "UpdateTime": "2018-3-27 9:36:39"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "15",
+        "UpdateTime": "2018-3-27 9:41:59"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "10",
+        "UpdateTime": "2018-3-27 9:46:39"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "22",
+        "UpdateTime": "2018-3-27 9:52:00"
+      }
+    ]
+  }
+,
+  {
+    "ServerName": "test0001112",
+    "SysServerMemoryRateList": [
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001112",
+        "MemoryRate": "1.02",
+        "UpdateTime": "2018-3-27 9:27:59"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001112",
+        "MemoryRate": "2.32",
+        "UpdateTime": "2018-3-27 9:36:39"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001112",
+        "MemoryRate": "2.32",
+        "UpdateTime": "2018-3-27 9:41:59"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001112",
+        "MemoryRate": "2.32",
+        "UpdateTime": "2018-3-27 9:46:39"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001112",
+        "MemoryRate": "2.32",
+        "UpdateTime": "2018-3-27 9:52:00"
+      }
+    ]
+  },
+  {
+    "ServerName": "test0001113",
+    "SysServerMemoryRateList": [
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "52",
+        "UpdateTime": "2018-3-27 9:27:59"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "42",
+        "UpdateTime": "2018-3-27 9:36:39"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "25",
+        "UpdateTime": "2018-3-27 9:41:59"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "11",
+        "UpdateTime": "2018-3-27 9:46:39"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "25",
+        "UpdateTime": "2018-3-27 9:52:00"
+      }
+    ]
+  },
+  {
+    "ServerName": "test0001114",
+    "SysServerMemoryRateList": [
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "32",
+        "UpdateTime": "2018-3-27 9:27:59"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "22",
+        "UpdateTime": "2018-3-27 9:36:39"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "44",
+        "UpdateTime": "2018-3-27 9:41:59"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "11",
+        "UpdateTime": "2018-3-27 9:46:39"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "25",
+        "UpdateTime": "2018-3-27 9:52:00"
+      }
+    ]
+  },
+  {
+    "ServerName": "test0001115",
+    "SysServerMemoryRateList": [
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "52",
+        "UpdateTime": "2018-3-27 9:27:59"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "32",
+        "UpdateTime": "2018-3-27 9:36:39"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "25",
+        "UpdateTime": "2018-3-27 9:41:59"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "11",
+        "UpdateTime": "2018-3-27 9:46:39"
+      },
+      {
+        "ServerID": -1400286338761914000,
+        "ServerName": "test0001111",
+        "MemoryRate": "65",
+        "UpdateTime": "2018-3-27 9:52:00"
+      }
+    ]
+  }
+
+]

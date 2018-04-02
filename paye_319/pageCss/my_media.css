@@ -1,0 +1,199 @@
+
+.bootstrap-table .table:not(.table-condensed), .bootstrap-table .table:not(.table-condensed) > tbody > tr > th, .bootstrap-table .table:not(.table-condensed) > tfoot > tr > th, .bootstrap-table .table:not(.table-condensed) > thead > tr > td, .bootstrap-table .table:not(.table-condensed) > tbody > tr > td, .bootstrap-table .table:not(.table-condensed) > tfoot > tr > td{
+    padding: 5px;
+}
+
+
+@media screen and (max-width:1800px){
+    body{
+        font-size: 14px;
+    }
+    .ChartWidth{
+        /*width: 500px;*/
+        height: 380px;
+
+    }
+    .fixed-table-container {
+        height: 360px;
+    }
+    .items{
+        height: 230px;
+    }
+    .container .iconfont {    position: relative;
+        top: -20px;
+        font-family:"iconfont" !important;
+        display: block;
+        text-align: center;
+        font-size:100px;
+        font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+
+
+
+@media screen and (max-width:1600px){
+    body{
+        font-size: 14px;
+    }
+    .ChartWidth{
+
+        /*width: 500px;*/
+        height: 360px;
+
+    }
+    .fixed-table-container {
+        height: 360px;
+    }
+    .items{
+        height: 230px;
+    }
+    .container .iconfont {    position: relative;
+        top: -20px;
+        font-family:"iconfont" !important;
+        display: block;
+        text-align: center;
+        font-size:100px;
+        font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+@media screen and (max-width:1399px){
+    .bootstrap-table .table:not(.table-condensed), .bootstrap-table .table:not(.table-condensed) > tbody > tr > th, .bootstrap-table .table:not(.table-condensed) > tfoot > tr > th, .bootstrap-table .table:not(.table-condensed) > thead > tr > td, .bootstrap-table .table:not(.table-condensed) > tbody > tr > td, .bootstrap-table .table:not(.table-condensed) > tfoot > tr > td{
+        padding: 3px;
+    }
+
+    .ChartWidth{
+        /*width: 500px;*/
+        height: 260px;
+
+    }
+    .fixed-table-container {
+        height: 260px;
+    }
+    .navigation .header h1{
+        height: 60px;
+        line-height: 60px;
+        font-size: 30px;
+        /*color: rgba(255,0,0,1);*/
+        /*color: rgba(255,0,0,0);*/
+
+    }
+    .items{
+        height: 200px;
+    }
+    .container .iconfont {    position: relative;
+        top: -20px;
+        font-family:"iconfont" !important;
+        display: block;
+        text-align: center;
+        font-size:90px;
+        font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #f1f1f1;
+    }
+    .fontcenter{
+        font-size: 20px;
+        color: #f1f1f1;
+    }
+}
+@media screen and (max-width:1024px){
+    body{
+        font-size: 10px;
+    }
+    .bootstrap-table .table:not(.table-condensed), .bootstrap-table .table:not(.table-condensed) > tbody > tr > th, .bootstrap-table .table:not(.table-condensed) > tfoot > tr > th, .bootstrap-table .table:not(.table-condensed) > thead > tr > td, .bootstrap-table .table:not(.table-condensed) > tbody > tr > td, .bootstrap-table .table:not(.table-condensed) > tfoot > tr > td{
+        padding: 2px;
+    }
+
+    .bootstrap-table .table:not(.table-condensed) > tbody > tr > td{
+        font-size: 10px;
+    }
+    .navigation .header h1{
+        height: 60px;
+        line-height: 60px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .ChartWidth{
+        /*width: 500px;*/
+        height: 260px;
+
+    }
+    .items{
+        height: 190px;
+    }
+    .container .iconfont {    position: relative;
+        top: -20px;
+        font-family:"iconfont" !important;
+        display: block;
+        text-align: center;
+        font-size:90px;
+        font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #f1f1f1;
+    }
+    .fontcenter{
+        font-size: 20px;
+        color: #f1f1f1;
+    }
+}
+@media screen and (max-width:800px){
+    .bootstrap-table .table:not(.table-condensed) > tbody > tr > td{
+        font-size: 5px;
+    }  .ChartWidth{
+           /*width: 500px;*/
+           height: 200px;
+
+       }
+
+    .navigation .header h1{
+        height: 60px;
+        line-height: 60px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .items{
+        height: 120px;
+    }
+    .bootstrap-table .table:not(.table-condensed) > tbody > tr > td{
+        padding: 0px;
+    }
+    .container .iconfont {    position: relative;
+        top: -20px;
+        font-family:"iconfont" !important;
+        display: block;
+        text-align: center;
+        font-size:60px;
+        font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #f1f1f1;
+    }
+    .fontcenter{
+        font-size: 20px;
+        color: #f1f1f1;
+    }
+}
+ /*.bootstrap-table .table:not(.table-condensed) > tbody > tr:last-child > td{*/
+     /*color: #ffffff;*/
+     /*background:red;*/
+     /*animation:myfirst 5s;*/
+     /*-webkit-animation:myfirst 5s;*/
+      /*Safari and Chrome */
+/*}*/
+/*@keyframes myfirst*/
+/*{*/
+    /*from {background:red;}*/
+    /*to {background: #ff8272;}*/
+/*}*/
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+    from {background:red;}
+    to {background:#ff8272;}
+}
