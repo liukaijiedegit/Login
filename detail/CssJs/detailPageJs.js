@@ -399,7 +399,7 @@ function  vvcLine(memoryline_Chart) {
                     // smooth:true,  //这句就是让曲
                     name:equipment[i],
                     type:'line',
-                    // xAxisIndex: 1.5,
+                    xAxisIndex: 0,
 
                     // areaStyle: {normal: {}},
                     data: storageData[i]
@@ -459,7 +459,7 @@ function data_line_Chart(equipment,data_time,seriesData,Memory_Chart,colors,who,
         // },
         xAxis: {
             type: 'category',
-            boundaryGap: false,
+            boundaryGap: false,//图形俩边留白
             data: data_time,
                 axisTick: {
                     alignWithLabel: true

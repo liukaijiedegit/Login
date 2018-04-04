@@ -30,6 +30,7 @@ $.fn.tabso=function( options ){
 			switch( opts.tabStyle ){
 				case "fade":
 					if( !($container.children( opts.cntChildSel ).eq( index ).is(":animated")) ){
+
 						$container.children( opts.cntChildSel ).eq( index ).siblings().css( "display", "none")
 							.end().stop( true, true ).fadeIn( opts.aniSpeed );
 					}
@@ -48,8 +49,21 @@ $.fn.tabso=function( options ){
 				default:
 					$container.children( opts.cntChildSel ).eq( index ).css( "display", "block")
 						.siblings().css( "display","none" );
+					/////
+
+
+				///
 			}
-	
+			// console.log("1")
+			// console.log(this.childNodes)
+			// var terminal  = this.childNodes;
+			// console.log(terminal[0])
+			// if(terminal[0].getAttribute("class")=='terminal'){
+			// 	console.log("ok");
+			// 	// initReport();
+			// }
+
+
 		});
 		
 		$menus.eq(0)[ opts.tabEvent ]();

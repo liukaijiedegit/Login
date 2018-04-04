@@ -486,7 +486,8 @@ function data_Memory_Chart() {
                 xAxis: [
                     {
                         type: 'category',
-                        boundaryGap: true,
+                        data:data_time,
+                        boundaryGap: false,//图形俩边留白
                         axisTick: {
                             alignWithLabel: true
                         },
@@ -504,7 +505,7 @@ function data_Memory_Chart() {
                                 }
                             }
                         },
-                        data:data_time
+
                     },
                     {
                         type: 'category',
@@ -552,7 +553,7 @@ data_Memory_Chart();
 // b表格
 
 
-function setTable(myTabledata){
+function setTable(MytableLoading,myTabledata){
     var Mytable_show='<div class="Mytable_show ">'+
         '<table  id="table_show" >'+
         '<thead>'+
@@ -565,7 +566,7 @@ function setTable(myTabledata){
         '</thead>'+
         '</table>'+
         '</div>'
-    $(".MytableLoading").append(Mytable_show)
+    $("."+MytableLoading).append(Mytable_show)
     var id =document.getElementById("table_show")
 //        console.log(data)
 //
@@ -671,7 +672,7 @@ function setTable(myTabledata){
 }
 
 var myTabledata=[]
-setTable(myTabledata);
+setTable("MytableLoading",myTabledata);
 
 
 
